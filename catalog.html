@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">    
+    </head>
+    <body>
+    <div class="bg-main">
+        <header class="main-header">
+            <nav class="main-nav">
+                <a class="logo" href="index.html"> <img src="svg/nerds-logo.svg"></a>
+                <ul class="site-navigation">
+                    <li><a href="#">Студия</a></li>
+                    <li><a href="#">Клиенты</a></li>
+                    <li><a href="catalog.html">Магазин</a></li>
+                    <li><a href="#nav-contacts">Контакты</a></li>
+                </ul>
+
+                <ul class="bascet-navigation">
+                    <li class="basket-link">
+                        <a href="basket.html">Корзина</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Магазин готовых шаблонов</h1>
+        </header>
+    </div>    
+        <main class="conteiner">
+            <section class="nav-products">
+                <label for="price" class="products-price">Стоимость</label>
+                <input id="price" type="range" step="1" value="1000" min="1" max="15000">
+                От <input type="number" step="1" value="1000" min="1000" max="15000">
+                До <input type="number" step="1" value="15000" min="1000" max="15000">
+                
+                <ul class="nav-list radio-grid">
+                    <label for="Grid" >Сетка</label>
+                <li><input type="radio" value="adapt" name="grid-radio" id="grid" checked> Адаптивная </li>
+                <li><input type="radio" value="adapt" name="grid-radio" id="grid"> Фиктированная </li>
+                <li><input type="radio" value="adapt" name="grid-radio" id="grid"> Резиновая </li>
+            </ul>
+            <ul class="nav-list checkbox-reaters">
+                <label for="reaters">Особености</label>
+                <li><input type="checkbox" name="box-reaters" value="1" id="reaters" checked>Слайдер</li>
+                <li><input type="checkbox" name="box-reaters" value="2" id="reaters">Блок преимуществ</li></li>
+                <li><input type="checkbox" name="box-reaters" value="3" id="reaters">Новости</li></li>
+                <li><input type="checkbox" name="box-reaters" value="4" id="reaters">Галерея</li></li>
+                <li><input type="checkbox" name="box-reaters" value="5" id="reaters">Корзина</li></li>
+            </ul>
+            <input class="button btn-price" type="submit" value="Отправить">
+
+            </section>
+
+
+
+
+
+
+
+
+            <section class="contacts" id="nav-contacts">
+                    <h4>NЁRDS DESIGN STUDIO</h4>
+                    <p>191186, Санкт-Петербург, <br>
+                        ул. Б. Конюшенная, д. 19/8<br>
+                        <br>   
+                        тел. +7 (812) 275-75-75<br>
+                    </p>
+                    <button class="button button-contacts">Напишите нам</button>
+                </section>
+        </main>
+            <footer class="main-footer">
+                <ul class="social-button">
+                    <li class="social-vk"><a href="#">Вконтакте</a></li>
+                        <li class="social-fb"><a href="#">Фейсбук</a></li>
+                            <li class="social-in"><a href="#">Инстаграм</a></li>
+                </ul>
+                <h3>Давайте дружить, это выгодно!</h3>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </footer>
+            <section class="form-modal">
+                <h3>Напишите нам</h3>
+               
+                <label class="text-form" for="name-form">Ваше Имя:</label>
+                <input class="text-filds" id="name-form" placeholder="Фамилия Имя" type="text" name="name">
+                
+                <label class="text-form" fot="email-form">Ваш Email:</label>
+                <input class="text-filds" id="email-form" placeholder="email@example.com" type="text">
+                
+                <label class="text-form" for="text-letter">Текст письма:</label>
+                <input class="text-filds " id="text-letter" type="text" placeholder="В свободной форме"></input>
+                
+                <button type="submit" class="button btn-sudmit">Отправить</button>
+    
+    
+            </section>
+    </body>
+</html>
